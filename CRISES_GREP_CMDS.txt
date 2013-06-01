@@ -1,0 +1,6 @@
+grep -rl "Lotus" I:\AOSC-SIG_(112th_SIG_BN)\crises_scripts | grep ^software.*\.csv$ > LotusFormsInstalled.txt		--Displays all systems with Lotus Forms installed
+grep -rL "Lotus" I:\AOSC-SIG_(112th_SIG_BN)\crises_scripts | grep ^software.*\.csv$ > LotusFormsNOTInstalled.txt	--Displays all systems without Lotus Forms installed
+grep -rl "Host Intrusion" I:\AOSC-SIG_(112th_SIG_BN)\crises_scripts | grep ^software.*\.csv$ > HIPSInstalled.txt	--Displays all systems with HIPS installed
+grep -rL "Host Intrusion" I:\AOSC-SIG_(112th_SIG_BN)\crises_scripts | grep ^software.*\.csv$ > HIPSNOTInstalled.txt	--Displays all systems without HIPS installed
+grep -rl "Styx" I:\AOSC-SIG_(112th_SIG_BN)\crises_scripts | grep ^software.*\.csv$ > StyxInstalled.txt			--Displays all systems with Styx installed
+grep -rL "Styx" I:\AOSC-SIG_(112th_SIG_BN)\crises_scripts | grep ^software.*\.csv$ > StyxNOTInstalled.txt		--Displays all systems without Styx installed
