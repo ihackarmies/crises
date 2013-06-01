@@ -25,7 +25,7 @@
 Const windowsPath = "\windows\system32"
 Const clientScriptPath = "\agent_scripts"
 Const serverName = "fileserver1a"
-Const serverScriptPath = "\officeshares\AOSC-SIG_(112th_SIG_BN)\crises_scripts"
+Const serverScriptPath = "\officeshares\temp\crises_scripts"
 Const agentScript = "\crises_interrogate.vbs"
 Const computerListFile = "Computers.txt"
 

@@ -34,7 +34,7 @@ Set objRootDSE = GetObject("LDAP://RootDSE")
 Dim ou  
 
 strDNSDomain = objRootDSE.Get("DefaultNamingContext")
-ou = "OU=AOSC-SIG,OU=Fort Bragg,OU=Standard Workstations,OU=Domain Workstations"
+ou = "OU=child4,OU=child3,OU=Standard Workstations,OU=Domain Workstations"
 
 cmd.CommandText = "SELECT name " & _  
                   "FROM 'LDAP://" & ou & "," & strDNSDomain &  "' " & _  
