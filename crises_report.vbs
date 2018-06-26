@@ -3,7 +3,7 @@
 ' Compliance Reporting Information Search and Extraction System
 '					Reporting Script	
 '
-'					Author: Alan Bairley
+'					Author: ihackcoinz
 '
 '						Version: 1.1
 '				Date Revised: 22 May 2013
